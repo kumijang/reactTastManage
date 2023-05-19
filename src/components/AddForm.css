@@ -1,0 +1,27 @@
+h2{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin-top: 0.5rem;
+}
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+.text-input{
+    flex-grow: 1;
+    padding: 5px 5px;
+    border: 1px solid #eaeaea;
+    font-size: 18px;
+
+}
+.text-input:focus{
+    outline: none;
+}
+.submit-btn{
+    background: green;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: transparent;
+}
